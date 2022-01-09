@@ -7,7 +7,6 @@ const { ethers } = require("ethers");
 
 // Ethers.js provider initialization
 const url = process.env.ALCHEMY_URL;
-;
 const customHttpProvider = new ethers.providers.JsonRpcProvider(url);
 let sf;
 async function setFramework() {
