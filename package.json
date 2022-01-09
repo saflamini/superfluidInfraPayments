@@ -1,0 +1,18 @@
+{
+  "name": "sfapipayments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@superfluid-finance/sdk-core": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "graphql": "^16.2.0",
+    "pg": "^8.7.1"
+  }
+}
