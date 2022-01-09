@@ -6,7 +6,8 @@ const { Framework } = require("@superfluid-finance/sdk-core");
 const { ethers } = require("ethers");
 
 // Ethers.js provider initialization
-const url = "https://eth-kovan.alchemyapi.io/v2/D5mZn4gVHMiQUIMSKn1HDXAoHfjnn48P";
+const url = process.env.ALCHEMY_URL;
+;
 const customHttpProvider = new ethers.providers.JsonRpcProvider(url);
 let sf;
 async function setFramework() {
